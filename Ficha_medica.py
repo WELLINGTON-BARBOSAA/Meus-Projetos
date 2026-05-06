@@ -10,8 +10,10 @@ def ficha_cadastro():
             idade = int(input('Digite sua idade: '))
             if idade >= 1 and idade < 120:
                 break
+            else:
+                print('Idade digitada inválida, tente novamente')
         except ValueError:
-            print('Você não digitou um numero, tente novamente')
+            print('Não digitou um numero, tente novamente')
     
     moradia_local = endereco()
     telefone = tel()
@@ -115,8 +117,6 @@ while True:
     print('Digite 3, para remover algum paciente da lista')
     print('Digite 4, para sair da lista')
     print()
-
-
 
     try:
         usuario = int(input('Digite a opção desejada (de 1 a 4): '))
