@@ -32,6 +32,10 @@ Sistema que calcula média de notas e determina a situação do aluno (aprovado,
 
 Ferramenta que estima ganhos mensais com base em valores informados pelo usuário. Aplica matemática prática e tratamento de entrada de dados.
 
+# Calculadora conversora de idade de cachorro para humano
+
+Projeto desenvolvido em Python para calcular a idade humana equivalente de um cachorro, considerando seu peso, porte e idade.
+
 ## 🧠 Objetivo do Repositório
 
 Este repositório faz parte do meu processo de evolução na programação. Cada projeto foi desenvolvido para reforçar fundamentos importantes como:
